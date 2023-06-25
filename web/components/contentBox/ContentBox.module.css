@@ -1,0 +1,180 @@
+.type{
+  display: block
+}
+
+.typeDisable{
+  display: none
+}
+
+.blockNone{
+  display: none
+}
+
+.blockActiveInline{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inputFile__container{
+  width: 840px;
+  height: 470px;
+  border: 2px dashed #BDBDBD;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.inputFile__container:hover{
+  transition: .3s;
+  border-color:#273A64;
+}
+
+.inputFile__container:hover svg path{
+  transition: .3s;
+  fill: #273A64;
+}
+
+.inputFile__container:hover .image_press{
+  transition: .3s;
+  color: #273A64;
+}
+
+.inputFile__container:hover .image_pressto{
+  transition: .3s;
+  color: #273A64;
+}
+
+.image_blockNone{
+  display: none
+}
+
+.image_holderError{
+  border-color: #D22D25;
+}
+
+.image_holderDefault{
+  border-color:#333333;
+}
+
+.image_pressDefault{
+  color: #8F8F8F;
+}
+
+.image_pressError{
+  color: #D22D25;
+}
+
+.image_button{
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.image_press{
+  font-size: 40px;
+  font-family: 'Roboto';
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.image_pressto{
+  font-size: 40px;
+  font-family: 'Roboto';
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
+.image_format{
+  font-family: 'Roboto';
+  font-size: 36px;
+  line-height: 16px;
+  color: #343434;
+}
+
+.content_picture{
+  margin-bottom: 10px;
+}
+
+.image_pictureError path{
+  fill: #D22D25;
+}
+
+.image_pictureDefault path{
+  fill: #828282;
+}
+
+.image_success{
+  position:relative;
+  width: 260px;
+  height: 140px;
+  margin-bottom: 21px;
+  border: 2px dashed #BDBDBD;
+  border-radius: 8px;
+  cursor:pointer;
+}
+.inputed_image{
+  display: block;
+  max-width: 80px;
+  max-height:48px;  
+  margin-bottom: 10px;
+}
+.file_uploaded{
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #333333;
+}
+
+.delete_file{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete_file_text{
+  display: flex;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #828282;
+}
+
+.error_size{
+  position: absolute;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  
+  color: #D22D25;
+  padding-bottom: 0px;
+  top:203px;
+
+}
+
+.video{
+  width: 840px;
+  height: 470px;
+  border-radius: 20px;
+}
+
+.timeInterval{
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.timeInterval__text{
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  line-height: 110%;
+  color: #343434;
+  margin-left: 20px;
+}

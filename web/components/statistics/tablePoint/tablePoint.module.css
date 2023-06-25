@@ -1,0 +1,17 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.point{
+  font-family: 'Roboto';
+  width: 112px;
+}

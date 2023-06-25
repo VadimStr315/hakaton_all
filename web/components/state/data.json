@@ -1,0 +1,29 @@
+{
+  "id":148324562359325,
+  "data":{
+    "0":{
+      "type_of_vechale":"кран",
+      "begin_work":"00:00",
+      "end_work":"00:10",
+      "waiting_time":"00:03"
+    },
+    "1":{
+      "type_of_vechale":"кран2",
+      "begin_work":"00:01",
+      "end_work":"00:11",
+      "waiting_time":"00:02"
+    },
+    "2":{
+      "type_of_vechale":"кран3",
+      "begin_work":"00:02",
+      "end_work":"00:12",
+      "waiting_time":"00:01"
+    },
+    "3":{
+      "type_of_vechale":"кран4",
+      "begin_work":"00:03",
+      "end_work":"00:13",
+      "waiting_time":"00:00"
+    }
+  }
+}
